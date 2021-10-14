@@ -13,9 +13,11 @@ Q9: Line 11 will run into an error because the 'const i = 0;' cannot be reassign
 Q10: Line 12 will print out 3 because there are three elements in the input array and the length has been set once at the top to the prices.length of 3.
 Q11: The return function will still return all the calculated discounted prices of [50, 100, 150] because discounted is an array type object and while the array is set constant, the values inside of it can be updated. 
 
-12a. Accessing name: alert( student.name );
-12b. Accessing Grad year: alert ( student['Grad Year']);
-12c.
-12d.
-12e.
+12a. alert( student.name );
+12b. alert( student['Grad Year']);
+12c. student.greeting();
+12d. alert( student['Favorite Teacher'.name]);
+12e. alert( student.courseLoad[1]);
+
+
 

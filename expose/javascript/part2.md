@@ -38,3 +38,7 @@ E. true == 2    will return false because true also has the value of 1 which is 
 F. true === Boolean(2)  will return true because the value of boolean(2) is true which is equal to true on the other side which can be compared without any convertion. 
 
 Q15. The double equals == converts the values being compared to the same type before comparing them.  Whereas the triple equals === does not convert the values and will only return a true comparision if the values and the types are identical.
+
+Q16. check part2-question16.js in same folder
+
+

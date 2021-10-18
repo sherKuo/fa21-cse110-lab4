@@ -41,4 +41,16 @@ Q15. The double equals == converts the values being compared to the same type be
 
 Q16. check part2-question16.js in same folder
 
+Q17. The combination of these two functions create a new array that holds all the elements of the old array multiplied by two.  We see this through the first function which creates a new array and puts each element within said array through the callback of the doSomething function.  The doSomething functions takes in a number and returns the number multiplied by two. Thus, together we get a new array with the values doubled. 
+
+Q18. check part2-question18.js in same folder
+
+Q19. The output in the code provided is the following. It does this because it causes the 4,3,2 count down because of the setTimeouts. 
+1 
+4 
+3 
+2 
+
+
+
 

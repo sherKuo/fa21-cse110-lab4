@@ -12,8 +12,16 @@ function startsWithR(key){
     return key.startsWith('r')
 }
 
+function isOddNumber(number){
+    if(number % 2 != 0) {
+        return true;
+    } else{
+        return false;
+    }
+}
+
 for ( let key in statistics ) {
-  if(startsWithR(key)){
+  if(startsWithR(key) && isOddNumber(statistics[key])){
     console.log(`${key}: ${statistics[key]}`);
   }
 }

@@ -8,4 +8,12 @@ let statistics = {
 }
 
 
-for (const prop in o)
+function startsWithR(key){
+    return key.startsWith('r')
+}
+
+for ( let key in statistics ) {
+  if(startsWithR(key)){
+    console.log(`${key}: ${statistics[key]}`);
+  }
+}
